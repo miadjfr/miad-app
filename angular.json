@@ -37,9 +37,12 @@
               "src/assets"
             ],
             "styles": [
+                "src/assets/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+                "src/assets/bootstrap.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -109,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8f1f3165-ad10-4702-be99-1f95bb06b425"
   }
 }

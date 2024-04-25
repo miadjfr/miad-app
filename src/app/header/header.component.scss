@@ -1,0 +1,71 @@
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
+  margin: 0 5px 0 10px;
+}
+.list:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.2s ease;
+}
+
+img {
+  width: 100px;
+  margin-left: 30px;
+}
+
+.header {
+  background-image: url(../../assets/img/ban.jpg);
+  background-position: left;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+.navbar {
+  padding-right: 50px;
+}
+
+.sub-menu {
+  opacity: 0;
+  background-image: url(../../assets/img/ban.jpg);
+  background-position: right;
+  color: white;
+  pointer-events: none;
+  position: absolute;
+  margin-left: -30px;
+  width: 150px;
+  transition: all 0.1s ease;
+}
+
+.sub-menu li {
+  color: white;
+  list-style: none;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.drop {
+  margin-left: -2px;
+}
+
+.dropdown:hover ul {
+  opacity: 1;
+  transition: all 0.4s ease;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.sub-menu:hover ul {
+  transform: translateY(0);
+}
